@@ -1,0 +1,141 @@
+/* header start------------------------------------------------------------------------- */
+
+
+
+
+/* main start ---------------------------------------------------------------------------*/
+.content{
+    width: 1520px;
+    margin-top: 0%;
+
+}
+
+/*----------------------
+ heder section start 
+------------------------*/
+.Influencer-header{
+display: flex;
+padding-left: 150px;
+}
+.info-titel-header{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(77, 76, 76);
+}
+.Influencer-info{
+padding-right: 100px;
+padding-top: 60px;
+}
+.infi-pharagrap{
+    color: rgb(77, 76, 76);
+     font-family: 'Poppins', sans-serif; 
+}
+.header-batton a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color:rgb(218, 4, 218);
+    padding: 10px 30px;
+    border-radius: 40px;
+     font-family: 'Poppins', sans-serif; 
+    margin-top: 16px;
+    display: inline-block;
+    font-weight: 600;
+}
+.image img{
+    width: 440px;
+    height: 414px;
+}
+/*---------------------
+ company logos start 
+ ---------------------*/
+ .company-logos{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(240, 234, 234);
+    border-left:none ;
+    border-right: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 70px;
+    padding-top: 10px;
+ }
+.logo{
+    padding: 20px;
+}
+/*-----------------------
+ Popular Collection
+----------------------- */
+.Popular-header{
+    font-size: 28px;
+/* google font two */
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 616px;
+    margin-top: 100px;
+    color: rgb(77, 76, 76);
+    text-shadow: 2px 2px 5px rgb(180, 180, 180);
+ padding-bottom: 40px;
+}
+/*-----------
+All products 
+----------*/
+.products{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-row-gap: 50px;
+grid-column-gap: 30px;
+width: 800px; 
+padding-left: 230px;
+}
+/*--------------------
+ product-info
+ ------------------ */
+.product{
+    width: 329px;
+    height: 476px;
+    background-color: rgb(245, 238, 238);
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px gray;
+}
+/* product-image */
+.product-image img{
+    padding-left: 14px;
+    padding-top: 14px;
+}
+/* product-info */
+.product-info{
+padding-left: 15px;
+}
+ /* name */
+.product-name{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+/* price */
+.product-price{
+    margin-top: 0%;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+/* rating */
+.product-rating{
+    margin-bottom: 0%;
+}
+.fa-star.fild{
+    color: rgb(243, 184, 36);
+}
+.fa-star.not-fild{
+    color: gray;
+}
+/* data */
+.produect-data{
+    color: gray;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0%;
+}
