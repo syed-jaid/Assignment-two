@@ -399,57 +399,56 @@ margin-left: 100px;
  }
  @media only screen and (min-width:810px) and (max-width:1080px){
     .header-left{
-        padding-left: 80px;
+         padding-left: 230px;
         padding-bottom: 0%;
     }
     .header-right{
      display: none;
     }
     .header-animation{
-   display: none;
+   display: block;
+   height: 400px;
     }
     .header-ball{
-   display: none;
+  display: block;
     }
     .Influencer-header{
         display: inline;   
     }
     .Influencer-info{
-        padding-right: 0%;
-        width: 420px;
-        padding-left: 15px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-left: 150px; 
+     
     }
     .info-titel-header{
-   font-size: 40px;
+   font-size: 50px;
     }
     .image img{
-        width: 350px;
-        height: 350px;
-       padding-left: 40px;
+        width: 550px;
+        height: 550px;
+       padding-left: 130px;
        padding-top: 30px;
        }
    .company-logos{
    display: none;
+
        }  
        .Popular-header{
-           padding-left: 90px;
+         padding-left: 300px;
        }
        .products{
    display:grid;
-   grid-template-columns: repeat(1,1fr);
- padding-left: 60px;
+   grid-template-columns: repeat(2,1fr);
+    padding-left: 20px; 
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
 
        }
        .feedback{
-           width:400px ;
+           width:770px ;
            height: 350px;
-           margin-left:27px ;
+           margin-left:15px ;
          
        }
-       .input{
-display: block;
-margin-left: 100px;
-       } 
-
-     
  }
