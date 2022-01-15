@@ -343,6 +343,7 @@ footer{
 /*----------------------------------------------------------------------------------
                                     media query
  --------------------------------------------------------------------------------- */
+ /* ............modile device........... */
  @media only screen and (min-width:340px) and (max-width:680px){
      .header-left{
          padding-left: 80px;
@@ -396,7 +397,8 @@ footer{
 display: block;
 margin-left: 100px;
         } 
- }
+ } 
+ /* ............tab device............. */
  @media only screen and (min-width:810px) and (max-width:1080px){
     .header-left{
          padding-left: 230px;
